@@ -4,7 +4,7 @@ package software;
 
 
 
-public class AdminOfServec {
+public class AdminOfServec{
 
 	private String username;
 	private String pasword;

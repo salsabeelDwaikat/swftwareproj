@@ -11,7 +11,7 @@ public class login {
 	Servec servec;
 	AdminOfServec admin = new AdminOfServec() ;
 	boolean login;
-    //login=admin.login();
+    
 
 	public void adminLogIn(Servec s) {
 		//super();

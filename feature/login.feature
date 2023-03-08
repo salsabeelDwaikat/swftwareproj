@@ -18,6 +18,6 @@ Feature: Admin login
 
     Examples: 
       | username | password |
-      | "Adlah"  | "00000"  |
-      | "Masa"   | "11111"  |
-      | "Arwa"   | "22222"  |
+      | "sals"  | "00000"  |
+      | "doaa"   | "11111"  |
+      | "اaya"   | "22222"  |
