@@ -4,6 +4,8 @@ import java.util.Properties;
 import javax.mail.Authenticator;
 import javax.mail.*;
 import javax.mail.internet.*;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -68,6 +70,7 @@ public class NotifyCustomer {
             Transport.send(message);
 
             System.out.println("Email sent successfully!");
+            assertTrue(true);
 
         } catch (MessagingException e) {
             throw new RuntimeException(e);

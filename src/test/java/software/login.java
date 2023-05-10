@@ -4,6 +4,8 @@ import software.AdminOfServec;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
 
 public class login {
 
@@ -50,7 +52,7 @@ public class login {
 		@Then("log in must be field")
 		public void logInMustBeField() {
 			equals(!login);
-		//	assertTrue(!login);
+		assertTrue(!login);
 		}
 
 	

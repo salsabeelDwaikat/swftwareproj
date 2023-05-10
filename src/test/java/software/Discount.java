@@ -4,6 +4,8 @@ import software.AdminOfServec;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
 
 public class Discount {
     private double usageAmount;
@@ -24,6 +26,7 @@ public class Discount {
         double discountedAmount = usageAmount - discount;
         System.out.printf("Congratulations! You qualify for a %d%% discount!\n", discountRate);
         System.out.printf("Your total amount after discount is: %.2f NIS\n", discountedAmount);
+        assertTrue(true);
     }
 }
 

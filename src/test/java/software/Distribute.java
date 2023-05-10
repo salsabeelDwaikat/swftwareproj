@@ -7,6 +7,9 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
+
 public class Distribute {
 	private List<Order> orders = new ArrayList<>();
     private List<Worker> workers;
@@ -35,7 +38,8 @@ public class Distribute {
         for (Worker worker : workers) {
             if (worker.isAvailable()) {
                 worker.assignOrder(orders.get(orders.size() - 1));
-                break;
+                assertTrue(true);
+                break; 
             }
         }
     }

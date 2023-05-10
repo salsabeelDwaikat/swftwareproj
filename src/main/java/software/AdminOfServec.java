@@ -1,5 +1,6 @@
 package software;
-
+import java.util.ArrayList;
+import java.util.List;
 
 
 
@@ -39,7 +40,7 @@ public class AdminOfServec{
 	
 	public Boolean login() {
 		
-		for (int i = 0; i <Servec.admins.size(); i++)
+		/*for (int i = 0; i <((Object) Servec.admins).size(); i++)
 	
 		{
 			
@@ -50,13 +51,13 @@ public class AdminOfServec{
 	
 	public boolean logout(String username) {
 		
-		for (int i = 0; i < Servec.admins.size(); i++)
+		/*for (int i = 0; i < Servec.admins.size(); i++)
 	
 		{
 			
 	
 			
-		}
+		}*/
 		return false;
 	
 	}
