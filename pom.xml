@@ -6,6 +6,11 @@
     <groupId>softpro</groupId>
     <artifactId>software</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    
+    <properties>
+  <sonar.organization>najahcon</sonar.organization>
+  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+</properties>
     <dependencies>
         <!-- Cucumber dependencies -->
         <dependency>
